@@ -1,0 +1,994 @@
+/* MEDIA QUERIES */
+
+  
+  
+  
+  
+
+  
+  
+  
+  /* Large devices (laptops/desktops, 1400px and below) */
+  @media only screen and (max-width: 1400px) {
+    
+    body .wrapper1 nav{
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 10 20px;
+        max-width: 100rem;
+        /* overflow-x: hidden; */
+        position: fixed;
+        z-index: 2;
+    }
+    body .wrapper1 nav .div1{
+      padding:0;
+    }
+    body .wrapper1 nav .bugmenu{
+        display: block;
+    }
+
+    body .wrapper1 nav .div2{
+        display: none;
+    }
+    body .wrapper1 .div5 .div5b img{
+        width: 100%;
+        /* margin-left: 30px; */
+        
+     }
+
+    body .wrapper1 .div6 .div6b{
+        margin-top: 60px;
+    }
+
+    body .wrapper1 .div6 .div6b .thirdp{
+        font-size: 2em;
+        font-weight: 700;
+        color: rgb(1, 1, 39);
+        text-align: center;
+    
+    }
+    body .wrapper1 .div7{
+        height: 70vh;
+    }
+    body .wrapper1 .div9{
+        max-height: 700px;
+    }
+
+    body .wrapper1 .div10{
+        margin-top: 200px;
+    }
+    body .wrapper1 .div10 .div10b{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    body .wrapper1 .div10 .div10b .div10bi{
+        border: 1px solid rgb(163, 163, 163);
+        max-width: 420px;
+        border-radius: 15px;
+        padding: 20px;
+        /* margin-bottom: 30px; */
+        align-self: center;
+        
+    }
+
+    
+    body .wrapper1 .div10 .div10b .div10bii .firstbox{
+        margin-bottom: 20px;
+    }
+
+    body .wrapper1 .div10 .div10b .div10bii .firstbox, .secondbox{
+        border: 1px solid rgb(163, 163, 163);
+        max-width: 300px;
+        border-radius: 10px;
+        padding: 15px;
+        
+    
+    }
+    body .wrapper1 .div10 .div10b .div10bii .firstbox p:first-of-type{
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        line-height: 1.3;
+    }
+
+    body .wrapper1 .div10 .div10b .div10bii .secondbox p:first-of-type{
+        font-size: 1em;
+        line-height: 1.3;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    
+    }
+    /* body .wrapper1 .div15 .div15a{
+        border: 1px solid rgb(143, 143, 143);
+        width: 97%;
+        height: 23vh;
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        padding: 50px;
+        background-color: white;
+        z-index: 1;
+        
+    
+    } */
+
+    
+
+  /* Medium devices (landscape tablets, 1100px and below */
+  @media only screen and (max-width: 1100px) {
+
+    body .wrapper1 nav{
+        display: flex;
+        padding: 20px 25px;
+        max-width: 100%;
+        position: fixed;
+        z-index: 2
+    }
+    body .wrapper1 nav .div1{
+        padding:0;
+      }
+      body .wrapper1 nav .div1 img{
+        width: 15vh; 
+        height: 5vh;
+      }
+      body .wrapper1 .div3{
+        padding: 0 25px;
+      }
+    body .wrapper1 .div3 .div3a .hidebtn{
+        display: block;
+    }
+
+    body .wrapper1 .div3 .div3aii{
+        display: none;
+    }
+    body .wrapper1 .div3 .div3b img{
+        
+        width: 50%;
+    }
+    body .wrapper1 .div4{
+        padding: 130px 25px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    body .wrapper1 .div4 .maincheks{
+        margin-top: 20px;
+        display: flex;
+        gap: 100px;
+        
+        
+    }
+    
+    body .wrapper1 .div4 .cheks{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    
+    body .wrapper1 .div4  .shortbar{
+        width: 30px;
+        height: 7px;
+        background-color: var(--neutral-100);
+        border-radius: 5px;
+        margin-bottom: 13px;
+    } 
+
+    body .wrapper1 .div4 .firstp{
+        font-size: 1.5em;
+    }
+    body .wrapper1 .div4 .secondp{
+        font-size: 1em;
+        color: var(--neutral-100);
+    }  
+
+    body .wrapper1 .div4 .specialp{
+        font-size: 1.9em;
+        font-weight: 600;
+        color: var(--neutral-100);
+    }
+
+
+    body .wrapper1 .div5 .div5b img{
+        width: 100%;
+        /* margin-left: -10px !important;  */
+            
+     }
+    body .wrapper1 .div6{
+        padding: 0 30px;
+    }
+
+    body .wrapper1 .div6 .div6b{
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    body .wrapper1 .div6 .div6b .div6bi{
+        margin-top: 40px;
+        
+    
+    }   
+    body .wrapper1 .div7{
+        height: 40vh;
+    }
+    body .wrapper1 .div7{
+        height: 70vh;
+        background-position:500px 0px;
+    }
+
+    body .wrapper1 .div7 .div7a{
+        padding: 100px 0 0 20px;
+    
+    }
+    body .wrapper1 .div9{
+        max-height: 700px;
+        margin-bottom: 300px;
+    }
+    body .wrapper1 .div9 .div9a{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+       
+    }
+    body .wrapper1 .div9 .div9a .div9ai{
+        position: absolute;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    
+
+    body .wrapper1 .div10{
+        display: flex;
+        margin-top:0px;
+        justify-content: space-between;
+        padding-left:25px ;
+        padding-right: 25px;
+    }
+
+    body .wrapper1 .div10a{
+        margin-top: 170px;
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bi{
+        max-width: 420px;
+        border-radius: 10px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid gray;
+       
+    }
+    
+    }
+    body .wrapper1 .div10 .div10b .div10bi p:first-of-type{
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    body .wrapper1 .div10 .div10b .div10bi p:first-of-type{
+        font-size: 1.2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bii{
+        display: block;
+        
+    }
+    body .wrapper1 .div10 .div10b .div10bii .firstbox{
+        max-width: 420px;
+        border-radius: 10px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid gray;
+       
+    }
+    
+    
+    body .wrapper1 .div10 .div10b .div10bii .firstbox p:first-of-type{
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    body .wrapper1 .div10 .div10b .div10bii .secondbox{
+        max-width: 420px;
+        border-radius: 10px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid gray;
+       
+    }
+   
+    
+    body .wrapper1 .div10 .div10b .div10bii .secondbox p:first-of-type{
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    body .wrapper1 .div11{
+        background-color: black;
+         height: 50%; 
+         padding: 5px 0 5px 0;
+         margin-top: 150px;
+        
+    }
+
+    body .wrapper1 .div11 .contain {
+        background-image: url(./images/girls.webp);
+        color: rgb(248, 247, 247);
+        background-position:-70px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px 30px;
+        height: 50%;
+        
+    }
+
+    
+    
+    body .wrapper1 .div11 .contain .div11a p:last-of-type{
+        text-align: left;
+        margin-right:0px ;
+        line-height: 1.5;
+    }
+
+    body .wrapper1 .div12{
+        display: grid;
+        padding: 70px 25px;
+        grid-template-columns: 1fr 1fr
+
+        
+    }
+    body .wrapper1 .div13{
+        padding: 50px 25px;
+
+    }
+    body .wrapper1 .div13 .div13b img{
+        width: 400px;
+    }
+
+    body .wrapper1 .div14{
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+
+   body .wrapper1 .div15{
+    padding: 50px 90px 0 90px;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+
+}
+
+body .wrapper1 .div15 .div15a{
+    border: 1px solid rgb(143, 143, 143);
+    width: 97%;
+    /* height: 23vh; */
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+    background-color: white;
+    z-index: 1;
+    
+
+}
+
+    
+   
+  }
+
+  
+
+  /* Extra large devices (large laptops and desktops, 900px and below till next break point) */
+  @media only screen and (max-width: 900px) {
+
+    body .wrapper1 .div3{
+        display:flex;
+        flex-direction: column;
+    }
+
+    body .wrapper1 .div3 .div3b{
+        display: none;
+    }
+    body .wrapper1 .div3 .div3ai h1{
+        display: block;
+        font-size: 4.7em;
+        font-weight: 700;
+        color: var(--neutral-300);
+    }
+    body .wrapper1 .div4{
+        padding: 130px 25px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    body .wrapper1 .div4 .maincheks{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    }
+    
+    body .wrapper1 .div4 .cheks{
+        justify-content: flex-start;
+        column-gap: 70px;
+        
+        
+    }
+    
+    
+    body .wrapper1 .div3 .div3ai p{
+        font-size: 1.5em;
+        color:var(--neutral-100) ;
+        margin-top: 25px;
+        letter-spacing: 1px;
+    }
+    body .wrapper1 .div3 .div3a .hidebtn .btnhide{
+        background-color: var(--purple-500);
+        border: none;
+        font-size: 1.5em;
+        padding:20px 30px;
+        font-weight: 600;
+        color: var(--mint-50-2);
+        border-radius: 15px;
+        word-spacing: 3px;
+    
+    }
+    body .wrapper1 .div5 .div5a p{
+        color: var(--coral-50-2);
+        font-size: 8vw;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    body .wrapper1 .div5 .div5a .div5ai .shortbar1{
+        width: 30px;
+        height: 6px;
+        background-color: var(--neutral-100);
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-right: 10px;
+        color: var(--mint-200);
+
+    }
+    body .wrapper1 .div5 .div5a .div5ai a{
+        font-size: 1.5em;
+        font-weight: 800;
+
+    }
+    body .wrapper1 .div5 .div5b img{
+      width: 100% !important;
+      
+       
+     }
+
+    body .wrapper1 .div6{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+     }
+
+     body .wrapper1 .div6 .div6b .thirdp{
+        font-size: 6vw !important;
+        font-weight: 700;
+        color: rgb(1, 1, 39);
+        text-align: center;
+    
+    } 
+    body .wrapper1 .div6 .div6b .fourthp{
+        font-size: 3vw;
+        font-weight: 500;
+        color: var(--navyblue-900);
+        text-align: left;
+        margin-top: 40px;
+        /* margin-left: 40px; */
+    }
+    
+    body .wrapper1 .div6 .div6b .div6bi a{
+        font-size: 1.5em;
+        
+
+    }
+    body .wrapper1 .div6 .div6b .div6bi .shortbar2{
+        width: 30px;
+        height: 6px;
+        background-color: rgb(79, 79, 196);
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-right: 10px;
+        color: rgb(79, 79, 196);
+    } 
+
+
+    body .wrapper1 .div8 .seventhp{
+        font-size: 5vw;
+        font-weight: 800;
+        color: #0f1336;
+    }
+    body .wrapper1 .div8 .eightp{
+        font-size: 3.5vw;
+        color: #5d5d85;
+        margin-top: 30px;
+    }
+    
+
+
+    body .wrapper1 .div9 .div9a{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    body .wrapper1 .div9 .div9a .div9ai{
+        position: absolute;
+        z-index: 1;
+        position: absolute;
+        
+
+    }
+
+    body .wrapper1 .div16{
+        background-color: var(--navyblue-900);
+        padding: 190px 90px 60px 90px;
+        display: block;
+        
+    }
+    
+    body .wrapper1 .div16 .div16a img{
+        margin-bottom: 25px;
+    
+    }
+    
+    body .wrapper1 .div16 .div16a a{
+        text-decoration: none;
+        color: var(--coral-50-2);
+        font-size: 1em;
+        margin-top: 40px;
+        /* margin-left: 20px; */
+    }
+    body .wrapper1 .div16 .div16a .move5, .move6, .move7{
+        margin-left: 15px;
+    }
+    
+    body .wrapper1 .div16 .div16b p{
+        font-size: 1.5em;
+        font-weight: 600;
+        color: var(--coral-50-2);
+        margin-left: 0 !important;
+        margin-top: 65px;
+    
+    }
+    body .wrapper1 .div16 .div16b .flexthis{
+        display: flex;
+    }
+    body .wrapper1 .div16 .div16b .shortbar7{
+        width: 23px;
+        height: 5px;
+        background-color: var(--mint-200);
+        border-radius: 5px;
+        margin-top: 7px;
+        
+    }
+
+    body .wrapper1 .footer{
+        padding: 30px 90px 50px 90px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1em;
+        color: rgb(219, 216, 216);
+        background-color: var(--navyblue-900);
+    }
+
+    body .wrapper1 .footer div:first-of-type{
+        margin-bottom: 20px;
+    }
+    body .wrapper1 .footer .flexthis{
+        display: flex;
+        font-size: 0.9em;
+        margin-top: 20px;
+    }
+    body .wrapper1 .footer .flexthis p{
+        margin-top: 3px;
+    
+    }
+    body .wrapper1 .footer i{
+        margin-left: 15px;
+        font-size: 1.3em;
+    }
+    
+
+}
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and below) */
+  
+  @media only screen and (max-width: 800px) {
+
+    body .wrapper1 .div7{
+        height: 70vh;
+        background-position:300px 0px;
+    }
+
+    body .wrapper1 .div10{
+        display: grid;
+        display: flex;
+        flex-direction: column;
+    }
+    body .wrapper1 .div10a .ninthp{
+        font-size: 1.9em;
+        font-weight: 100;
+        font-weight: 500 !important
+    }
+
+    body .wrapper1 .div10a .tenthp{
+        font-size: 5em !important;
+    }
+    body .wrapper1 .div10a .elevnthp{
+        font-size: 1.5em !important;
+        font-weight: 500 !important;
+    }
+
+
+    body .wrapper1 .div10a{
+        margin-top: 10px;
+    }
+    body .wrapper1 .div10 .div10b{
+        margin-top: 20px;
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bi{
+        max-width: 420px;
+        border-radius: 15px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid rgb(163, 163, 163);
+        align-self: self-start;
+        border: 1px solid rgb(163, 163, 163);
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bi p:first-of-type{
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    body .wrapper1 .div10 .div10b .div10bi p:first-of-type{
+        font-size: 1.2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bii{
+        display: block;
+        
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bii .firstbox{
+        border: 1px solid rgb(163, 163, 163);
+        max-width: 420px;
+        border-radius: 10px;
+        padding: 30px;
+    
+    }
+   
+    
+    body .wrapper1 .div10 .div10b .div10bii .firstbox p:first-of-type{
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+
+    body .wrapper1 .div10 .div10b .div10bii .secondbox{
+        border: 1px solid rgb(163, 163, 163);
+        max-width: 420px;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    
+    body .wrapper1 .div10 .div10b .div10bii .secondbox p:first-of-type{
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    body .wrapper1 .div12{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+    }
+
+    body .wrapper1 .div12 .div12a .p12{ 
+        font-size: 3em;
+        font-weight: 600;
+        color: rgb(1, 1, 31);
+        margin-bottom: 18px;
+    }
+    
+    body .wrapper1 .div12 .div12a .p13{
+        color: var(--neutral-800);
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-size: 1.3em;
+    }
+    
+    body .wrapper1 .div12 .div12a .shortbar4{
+        width: 26px;
+        height: 6px;
+        background-color: var(--purple-700);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    body .wrapper1 .div12 .div12a .p14{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    body .wrapper1 .div13{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+        
+    }
+
+    body .wrapper1 .div13 .div13b img{
+        width: 85%;
+        height: 85%;
+    }
+    body .wrapper1 .div13 .div13a{
+        padding-top: 50px;
+    }
+    body .wrapper1 .div13 .div13a .p15{ 
+        font-size: 3em;
+        font-weight: 600;
+        color: rgb(1, 1, 31);
+        margin-bottom: 18px;
+        
+    }
+    body .wrapper1 .div13 .div13a .p16{
+        font-size: 1.5em;
+    }
+    body .wrapper1 .div13 .div13a .shortbar5{
+        width: 28px;
+        height: 6px;
+        background-color: var(--purple-700);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    body .wrapper1 .div13 .div13a .flexthis .p17{
+        font-size: 1.5em;
+        font-weight: 600;
+        color: var(--purple-800);
+    }
+    body .wrapper1 .div14{
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    body .wrapper1 .div14 .div14a img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 15px;
+    }
+    body .wrapper1 .div14 .div14a img:first-of-type{
+        margin-left: 0;
+    }
+
+    body .wrapper1 .div14 .div14b .p18{
+        font-size: 2.5em;
+        font-weight: 600;
+       
+    }
+    body .wrapper1 .div14 .div14b  .shortbar6{
+        width: 29px;
+        height: 6px;
+        margin-top: 10px;
+    }
+    body .wrapper1 .div14 .div14b .p19{
+        margin-left: 6px;
+        color: var(--purple-800);
+        font-size: 1.5em;
+        font-weight: 600;
+    
+    }
+     body .wrapper1 .div15{
+        padding: 50px 20px 0 20px;
+        width: 100%;
+        text-align: center;
+    }
+    body .wrapper1 .div15 .div15a{
+        border: 1px solid rgb(143, 143, 143);
+        padding: 20px;
+        height: 45vh;
+        border-radius: 30px;
+    }
+    body .wrapper1 .div15 .div15a  .div15ai .p20{
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.3;
+        margin-top: 10px;
+        
+    }
+    body .wrapper1 .div15 .div15a .div15aii{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    body .wrapper1 .div15 .div15a .div15aii button{
+      width:210px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    body .wrapper1 .div15 .div15a .div15aii button i{
+        font-size: 3em;
+        
+    }
+    body .wrapper1 .div15 .div15a .div15aii button .span1{
+        font-size:1.1em ;
+
+        
+    }
+    body .wrapper1 .div15 .div15a .div15aii button .span2{
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    body .wrapper1 .div15 .div15a .div15aii button .flexthis div{
+        margin-top: 9px;
+    }
+    .div15a .div15aii .btn2{
+        margin-left: 0;
+    }
+    
+
+ } 
+
+ @media only screen and (max-width: 700px){
+    body .wrapper1 .div9 .div9a .lonley{
+        height: 100%;
+        width: 100%;
+    }
+
+ }
+
+
+ @media only screen and (max-width: 600px){
+    
+    body .wrapper1 .div15 .div15a .div15aii button{
+        width:180px;
+        margin-top: 10px;
+        padding: 5px;
+        padding-left: 15px;
+
+      }
+      body .wrapper1 .div15 .div15a .div15aii button i{
+          font-size: 1.5em;
+          
+          
+      }
+      body .wrapper1 .div15 .div15a .div15aii button .span1{
+          font-size:1.1em ;
+  
+          
+      }
+      body .wrapper1 .div15 .div15a .div15aii button .span2{
+          font-size: 1em;
+          font-weight: 600;
+      }
+      body .wrapper1 .div15 .div15a .div15aii button .flexthis div{
+          margin-top: 0;
+      }
+      .div15a .div15aii .btn2{
+          margin-left: 0;
+      }
+      body .wrapper1 .div15 .div15a .div15aii .btn1 .flexthis{
+        display: flex;
+           
+    }
+    
+    body .wrapper1 .div15 .div15a .div15aii .btn2 .flexthis{
+        display: flex;
+        
+    }
+
+
+ }
+
+
+
+ @media only screen and (max-width: 550px){
+    body .wrapper1 .div14 .div14a img{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-left: 15px;
+    }
+    body .wrapper1 .div15 .div15a  .div15ai .p20{
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+    body .wrapper1 .div15 .div15a .div15aii button i{
+        font-size: 2em;
+         margin-right: 20px;
+  }
+    body .wrapper1 .div16{
+    background-color: var(--navyblue-900);
+    padding: 190px 25px 60px 25px;
+  }
+    body .wrapper1 .footer{
+        padding: 30px 25px 50px 25px;
+    }
+ }
+  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+
+    body .wrapper1 nav{
+        /* justify-content: space-between; */
+        padding: 10px;
+        width: 100%;
+        /* overflow-x: hidden; */
+        position: fixed;
+        z-index: 2;
+    }
+    body .wrapper1 nav .div1{
+      padding:0;
+    }
+    body .wrapper1 nav .bugmenu{
+        display: block;
+    }
+
+    body .wrapper1 nav .div2{
+        display: none;
+    }
+    body .wrapper1 .div7{
+        background-image: url(./images/burna\ boy.webp);
+        /* color: rgb(248, 247, 247); */
+        background-position:710px 0px;
+        background-repeat: no-repeat;
+        height: 70vh;
+        
+        background-color: var(--purple-600);
+        
+    }
+}
+@media only screen and (max-width:370px) {
+
+    body .wrapper1 .div15 .div15a .div15aii button .span1{
+        font-size:1em ;
+
+        
+    }
+}
